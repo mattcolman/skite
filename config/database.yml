@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: skite_production
-  username: skite
+  username: mcolman
   password: <%= ENV['SKITE_DATABASE_PASSWORD'] %>
